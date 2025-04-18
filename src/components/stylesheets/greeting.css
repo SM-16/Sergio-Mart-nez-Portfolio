@@ -1,0 +1,124 @@
+.greetingContainer{
+  margin-top: 400px;
+}
+.logoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 60px;
+  margin-top: 20px;
+}
+.logo {
+  height: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.profileImageContainer{
+  display: flex;
+  justify-content: center;
+}
+.profileImage {
+
+  opacity: 0;
+  backdrop-filter: blur(10px);
+  animation: appear 1s ease-out forwards;
+  border: 2px cyan solid;
+}
+@keyframes appear {
+  0%{
+    opacity: 0;
+    backdrop-filter: blur(100px);
+  }
+  80%{    backdrop-filter: blur(80px);} 
+  100%{
+    opacity: 1;
+    backdrop-filter: blur(0);
+  } 
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+  animation-play-state: paused;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.logo.rails:hover {
+  filter: drop-shadow(0 0 1.5em #f10b0b);
+}
+.logo.wordpress:hover {
+  filter: drop-shadow(0 0 .5em #95fff11c);
+}
+
+.p-tag{
+  font-weight: 400;
+  font-size: 16px;
+  color: #a5a5a5ab;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1.1;
+  z-index: 50;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(0, 255, 255);
+  position: relative;
+  padding: .25em;
+}
+.sergio::before{
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(0, 255, 255);
+  position: relative;
+  content: "Sergio";
+  position: absolute;
+  width: 0%;
+  height: 110%;
+  overflow: hidden;
+  color: rgb(0, 255, 255);
+  cursor: default;
+  transition:.75s ease-in-out;
+}
+.sergio:hover::before{
+  width: 35%;
+  max-width: fit-content;
+  height: 110%;
+  filter: drop-shadow(0 0 .5em #61dafbaa);
+  cursor: default;
+}
+.martinez::before{
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(0, 255, 255);
+  position: relative;
+  content: "Martínez";
+  position: absolute;
+  width: 0%;
+  height: 110%;
+  overflow: hidden;
+  color: cyan;
+  cursor: default;
+  transition:.75s ease-in-out;
+}
+.martinez:hover::before{
+  width: 80%;
+  height: 110%;
+  filter: drop-shadow(0 0 .5em #61dafbaa);
+  cursor: default;
+}
+
