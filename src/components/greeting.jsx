@@ -18,7 +18,7 @@ function Greeting() {
         <div className='greetingContainer'>
             <div>
                 <a className='profileImageContainer' href="https://www.upwork.com/freelancers/~0161dfe63e133888ce" target='_blank'>
-                    <img className='profileImage' style={{borderRadius:"1000px"}} src="/photo.jpg" alt="" />
+                    <img className='profileImage' style={{borderRadius:"1000px"}} src="/photo.png" alt="" />
                 </a>
                 <h1>Hey I'm <span className='sergio'>Javier</span> <span className='martinez'>Medrano</span></h1>
             </div>
