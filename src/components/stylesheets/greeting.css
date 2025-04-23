@@ -23,7 +23,7 @@
   opacity: 0;
   backdrop-filter: blur(10px);
   animation: appear 1s ease-out forwards;
-  border: 2px cyan solid;
+  border: 1px cyan solid;
 }
 @keyframes appear {
   0%{
