@@ -6,8 +6,8 @@ export default function Projects(){
             <a href="https://www.railscomponents.co/" className="projectlink1" target="_blank">
                 Rails components
             </a>
-            <a href="https://www.railscomponents.co/" className="projectlink1" target="_blank">
-                Codebrisk
+            <a href="https://car-physichs-react.vercel.app/" className="projectlink1" target="_blank">
+                3D Car physics game
             </a>
 
         </div>
