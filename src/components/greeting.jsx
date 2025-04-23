@@ -20,7 +20,7 @@ function Greeting() {
                 <a className='profileImageContainer' href="https://www.upwork.com/freelancers/~0161dfe63e133888ce" target='_blank'>
                     <img className='profileImage' style={{borderRadius:"1000px"}} src="https://www.upwork.com/profile-portraits/c1GEKdGnpv6enQntZ4qfSDjV5C40JDxb5LrJzVtJ4vKnMzAKFv-BAQdp3ovPKVSCcN" alt="" />
                 </a>
-                <h1>Hey I'm <span className='sergio'>Sergio</span> <span className='martinez'>Martínez</span></h1>
+                <h1>Hey I'm <span className='sergio'>Javier</span> <span className='martinez'>Medrano</span></h1>
             </div>
     
             <div className=''>
